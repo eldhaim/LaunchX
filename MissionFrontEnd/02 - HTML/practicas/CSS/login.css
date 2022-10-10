@@ -1,14 +1,6 @@
-html{
-    height: 100%;
-    font-family: arial;
-}
-
-.body_login{
-    margin: 0;
-    padding: 0;
+.div_login{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(#FF79B5, #DAAAFF);
 }
 #logo{
     background-color: white;
@@ -18,10 +10,11 @@ html{
     margin: 2%;
 }
 .cont_login{
-    margin-top: 4%;
+    margin-top: 8%;
     align-self: center;
-    transition-property: opacity, left, top;
-    transition-duration: 3s, 5s;
+    -webkit-transition-duration: 0.8s; /* Safari */
+    /*transition-property: opacity, left, top;*/
+    transition-duration: 0.8s;
     height: 400px;
     width: 400px;
     background: rgba(0, 0, 0, 0.3);
@@ -36,18 +29,24 @@ html{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 .cont_login h2{
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
     margin: -10px 0 30px;
     font-size: 30px;
     color: #FFE1B8;
 }
 
 #lbl_usuario, #lbl_pass{
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
     margin: 0 0 30px;
     padding: 0;
     color: #FFE1B8;
 }
 
 #input_usuario, #input_pass{
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
     height: 25px;
     margin-bottom: 15px;
     width: 70%;
@@ -56,7 +55,7 @@ html{
 }
 
 .btn_login{
-    background-color: #FFE1B8;
+    background-color: #FFB0D8;
     border-radius: 8%;
     border: none;
     color: black;
@@ -67,14 +66,13 @@ html{
     font-size: 16px;
     margin-top: -10px;
     cursor: pointer;
-    -webkit-transition-duration: 0.2s; /* Safari */
-    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
     box-shadow: 5px 5px 5px #03182c;
     border: 0.2px solid #FFB0D8;
 }
 .btn_login:hover{
     color: #03182c;
-    background-color: #FFB0D8;
     border: 0.2px solid black;
 }
 .btn_login:active{
@@ -89,10 +87,4 @@ html{
 footer{
     padding-top: 1%;
     border-top: 1px solid #CD7DFF;
-}
-footer div{
-    font-size: 20px;
-    margin-top: 1px;
-    background-color: #0098FF;
-    text-align: center;
 }

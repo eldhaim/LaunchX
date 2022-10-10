@@ -33,13 +33,17 @@ Practica de menu*/
     color: #FFE1B8;
     display: inline-block;
 }
-.login{
+.logo{
+    box-sizing: content-box;
+    padding-bottom: 0.7%;
+}
+.login_registro{
     margin-right: 1%;
     color: #FFE1B8;
 }
-.menu li a, .login a{
+.menu li a, .login_registro a{
     text-decoration: none;
 }
-.menu li a:visited, .login a:visited{
+.menu li a:visited, .login_registro a:visited{
     color: #FFE1B8;
 }

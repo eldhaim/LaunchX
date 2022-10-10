@@ -4,40 +4,62 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Colored cakes</title>
-        <link rel="stylesheet" href="/REPOSITORIO_GITHUB/MissionFrontEnd/02 - HTML/practicas/CSS/login.css">
+        <title>Inicio de sesión</title>
+        <link
+            rel="stylesheet"
+            href="/REPOSITORIO_GITHUB/MissionFrontEnd/02 - HTML/practicas/CSS/menu.css">
+        <link
+            rel="stylesheet"
+            href="/REPOSITORIO_GITHUB/MissionFrontEnd/02 - HTML/practicas/CSS/login.css">
     </head>
-    <body class="body_login">
-        <div id="logo"></div>
-        <div class="cont_login">
-            <h2>Login</h2>
-            <input
-                type="text"
-                id="input_usuario"
-                name="input_usuario"
-                placeholder="Ingrese su correo electronico">
-            <br>
-            <label id="lbl_usuario">
-                Usuario
-            </label>
-            <input
-                type="text"
-                id="input_pass"
-                name="input_pass"
-                placeholder="Ingrese sus contraseña">
-            <br>
-            <label id="lbl_pass">
-                Contraseña
-            </label>
-            <a class="entrar" href="login.html">
-                <button class="btn_login"><b>Entrar</b></button>
-            </a>
-        </div>
-        <footer>
-            <div>
-                <p>
-                    Prueba footer</p>
+    <body>
+        <section id="header">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="index.html">Productos</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="index.html">Mis Pasteles</a>
+                    </li>
+                </ul>
+                <div class="login_registro">
+                    <a href="login.html">Registrarme</a>
+                </div>
             </div>
-        </footer>
+        </section>
+        <div class="div_login">
+            <div class="cont_login">
+                <h2>Login</h2>
+                <input
+                    type="text"
+                    id="input_usuario"
+                    name="input_usuario"
+                    placeholder="Ingrese su correo electronico">
+                <br>
+                <label id="lbl_usuario">
+                    Usuario
+                </label>
+                <input
+                    type="text"
+                    id="input_pass"
+                    name="input_pass"
+                    placeholder="Ingrese sus contraseña">
+                <br>
+                <label id="lbl_pass">
+                    Contraseña
+                </label>
+                <a class="entrar" href="index.html">
+                    <button class="btn_login">
+                        <b>Entrar</b>
+                    </button>
+                </a>
+            </div>
+        </div>
     </body>
 </html>
