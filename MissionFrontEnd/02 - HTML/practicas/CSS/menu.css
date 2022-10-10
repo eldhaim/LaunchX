@@ -1,0 +1,45 @@
+html{
+    height: 100%;
+    font-family: arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#FF79B5, #DAAAFF);
+}
+/*[2022/10/10 at 00:32:29]
+Menu base v 1.0:
+Practica de menu*/
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(#CD7DFF, #DAAAFF);
+    height: 34px;
+    padding-top: 17px;
+    border-bottom: 1px solid #FFE1B8;
+    position: static;
+}
+/*[2022/10/10 at 00:40:33]
+`nombre`:
+`comentario`*/
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+.menu li{
+    color: #FFE1B8;
+    display: inline-block;
+}
+.login{
+    margin-right: 1%;
+    color: #FFE1B8;
+}
+.menu li a, .login a{
+    text-decoration: none;
+}
+.menu li a:visited, .login a:visited{
+    color: #FFE1B8;
+}
